@@ -10,8 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var image_view: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        image_view.kay_addCorner(radius: image_view.frame.width / 2)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -22,4 +25,3 @@ class ViewController: UIViewController {
 
 
 }
-

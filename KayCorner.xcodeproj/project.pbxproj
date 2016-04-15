@@ -14,6 +14,8 @@
 		B2A93A871CC0BD4A000900EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A93A851CC0BD4A000900EA /* LaunchScreen.storyboard */; };
 		B2A93A921CC0BD4A000900EA /* KayCornerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A93A911CC0BD4A000900EA /* KayCornerTests.swift */; };
 		B2A93A9D1CC0BD4A000900EA /* KayCornerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A93A9C1CC0BD4A000900EA /* KayCornerUITests.swift */; };
+		B2A93AAD1CC0BD73000900EA /* UIImageView+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A93AAB1CC0BD73000900EA /* UIImageView+Category.swift */; };
+		B2A93AAE1CC0BD73000900EA /* UIImage+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A93AAC1CC0BD73000900EA /* UIImage+Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B2A93A981CC0BD4A000900EA /* KayCornerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KayCornerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A93A9C1CC0BD4A000900EA /* KayCornerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayCornerUITests.swift; sourceTree = "<group>"; };
 		B2A93A9E1CC0BD4A000900EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A93AAB1CC0BD73000900EA /* UIImageView+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Category.swift"; sourceTree = "<group>"; };
+		B2A93AAC1CC0BD73000900EA /* UIImage+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Category.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		B2A93A7B1CC0BD4A000900EA /* KayCorner */ = {
 			isa = PBXGroup;
 			children = (
+				B2A93AAA1CC0BD67000900EA /* KayCorner */,
 				B2A93A7C1CC0BD4A000900EA /* AppDelegate.swift */,
 				B2A93A7E1CC0BD4A000900EA /* ViewController.swift */,
 				B2A93A801CC0BD4A000900EA /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				B2A93A9E1CC0BD4A000900EA /* Info.plist */,
 			);
 			path = KayCornerUITests;
+			sourceTree = "<group>";
+		};
+		B2A93AAA1CC0BD67000900EA /* KayCorner */ = {
+			isa = PBXGroup;
+			children = (
+				B2A93AAB1CC0BD73000900EA /* UIImageView+Category.swift */,
+				B2A93AAC1CC0BD73000900EA /* UIImage+Category.swift */,
+			);
+			path = KayCorner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2A93A7F1CC0BD4A000900EA /* ViewController.swift in Sources */,
+				B2A93AAD1CC0BD73000900EA /* UIImageView+Category.swift in Sources */,
 				B2A93A7D1CC0BD4A000900EA /* AppDelegate.swift in Sources */,
+				B2A93AAE1CC0BD73000900EA /* UIImage+Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
